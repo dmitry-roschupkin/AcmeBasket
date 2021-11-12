@@ -1,0 +1,46 @@
+Hi!
+
+So, this is "A README file explaining how it works and any assumptions you’ve made"
+
+Several classes have been designed to do the task. Description of classes and functions is made in PHPDoc style, with
+description of data formats, so I don’t make sense to describe it here.
+
+I respect the KISS design principles (Keep it simple. https://en.wikipedia.org/wiki/KISS_principle) and
+LAMPS (You aren't gonna need it. https://ru.wikipedia.org/wiki/YAGNI), but the assignment said:
+"For this Head of Engineering (technical leadership) position, we're looking for you to spend 4-8 hours and do
+significantly more than just model the problem" so I tried to complicate things a little.
+
+I used the "factory" and the "singleton" design patterns, although the task is quite simple and could of course do
+without them. But I had to show my skills, that's why I complicated it a little.
+
+To demonstrate the work, two demos were made:
+  "simple" to run from the console or browser, there you need to change the input data right in the code.
+  "web" to run from the browser with the implementation of a simple form and its simplest processing. I didn't spend
+too much time on this, because in the assignment it was written:"And to avoid misunderstandings more should be focused
+on process, infrastructure and orchestration type demos, not building a UI"
+
+-------------------- ASSUMPTIONS --------------------
+
+In the next version, I could make several primitive, maximally simplified classes:
+  Application
+  Controller
+  HtmlHelper
+  Validator
+  FormModel
+  Log
+  configuration file
+  ...
+and use them to make a more respectable demonstration of the web application.
+
+It would also be possible to make the package "basket" separately downloadable using the composer in the next version
+
+I could do it on the weekend if you want
+
+Also, it would be possible to add DB and a class for
+work with API and make a demonstration of work in the mode of a microservice. Using simple API functions like:
+  initBasket
+  addProduct
+  total
+
+Best regards,
+Dmitry
