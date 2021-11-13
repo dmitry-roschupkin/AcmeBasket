@@ -3,14 +3,15 @@ Hi!
 So, this is "A README file explaining how it works and any assumptions you’ve made".
 
 Several classes have been designed to do the task. Description of classes and functions is made in PHPDoc style, with
-description of data formats, so I don’t make sense to describe it here.
+description of data formats, so I don’t make sense to describe it here. I didn't know how it should be used, as
+a module, as a composer package, etc., so I sketched it in the simplest way.
 
 I respect the KISS design principles (Keep it simple. https://en.wikipedia.org/wiki/KISS_principle) and
 LAMPS (You aren't gonna need it. https://ru.wikipedia.org/wiki/YAGNI), but the assignment said:
 "For this Head of Engineering (technical leadership) position, we're looking for you to spend 4-8 hours and do
 significantly more than just model the problem" so I tried to complicate things a little.
 
-I used the "factory" and the "singleton" design patterns, although the task is quite simple and could of course do
+I used the "factory" and the "singleton" design patterns, exceptions, although the task is quite simple and could of course do
 without them. But I had to show my skills, that's why I complicated it a little.
 
 To demonstrate the work, two demos were made:
