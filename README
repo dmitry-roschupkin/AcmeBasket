@@ -22,7 +22,8 @@ on process, infrastructure and orchestration type demos, not building a UI".
 
 -------------------- ASSUMPTIONS --------------------
 
-In the next version, I could make several primitive, maximally simplified classes:
+In the next version, I could make several primitive, maximally simplified classes without using any frameworks. For
+example classes:
   Application
   Controller
   HtmlHelper
